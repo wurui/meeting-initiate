@@ -37,7 +37,7 @@
 	            						<label>人数</label>
 	            					</th>
 	            					<td>
-	            						<input name="sacle" placeholder="大约与会人数" type="number"/>
+	            						<input name="scale" placeholder="大约与会人数" type="number"/>
 	            					</td>
 	            				</tr>
 	            			</tbody>
