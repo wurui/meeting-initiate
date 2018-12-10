@@ -65,6 +65,10 @@ define(['oxjs'],function(OXJS){
     				OXJS.toast('[操作失败]'+r.error)
     			}else{
     				OXJS.toast('提交成功')
+                    if(r && r.body && r.body.LINK){
+                        location.href=r.body.LINK.after
+                    }
+                    
     			}
     		});
     		return false;

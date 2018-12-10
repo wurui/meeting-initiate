@@ -40,6 +40,14 @@
 	            						<input name="scale" placeholder="大约与会人数" type="number"/>
 	            					</td>
 	            				</tr>
+	            				<tr>
+	            					<th>
+	            						<label>组织者</label>
+	            					</th>
+	            					<td>
+	            						<input name="organizer" placeholder="组织者名字" type="text"/>
+	            					</td>
+	            				</tr>
 	            			</tbody>
 	            		</table>
 	            	</div>

@@ -2,9 +2,16 @@
   "RULE_VERSION":"20180724",
   "name": "meeting-initiate",
   "apiDependencies": [
-  {
-    "name": "user-event"
-  }
-]
+	  {
+	    "name": "user-event",
+	    "selector":"_id",
+	    "LINK":[
+	    	{
+	    		"name":"after",
+		    	"title":"数据提交后跳转地址"
+		    }
+	    ]
+	  }
+	]
 }
 
