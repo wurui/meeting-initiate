@@ -70,7 +70,7 @@
             	
             	<br/>
             	<center>
-	            	<button>提&#160;&#160;&#160;&#160;交</button>
+	            	<button class="skin-bgcolor">提&#160;&#160;&#160;&#160;交</button>
 	            </center>
             </form>
         </div>
