@@ -60,13 +60,13 @@ define(['oxjs'],function(OXJS){
     			},dat)
     		},function(r){
     			//history.back();
-    			var r=r && r[0];
+    			var r=r && r['user-event'];
     			if(r.error){
     				OXJS.toast('[操作失败]'+r.error)
     			}else{
     				OXJS.toast('提交成功')
                     if(r && r.body && r.body.LINK){
-                        location.href=r.body.LINK.after
+                        location.href=r.body.LINK.detail
                     }
                     
     			}
