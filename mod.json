@@ -9,7 +9,7 @@
 	    	{
 	    		"name":"detail",
 		    	"title":"活动详情",
-		    	"target":"meeting-info"
+		    	"target":"meeting-my-detail"
 		    }
 	    ]
 	  }
